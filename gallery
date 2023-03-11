@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Gallery</title>
+	<title>Gallery</title>
 	<style>
 		.gallery {
 			display: flex;
@@ -34,7 +34,7 @@
             </ul>
         </nav>
     </header>
-	<h1>My Gallery</h1>
+	<h1>Gallery</h1>
 	<div class="gallery">
 		<img src="assets/images/yoga00.jpeg" alt="Picture 1">
 		<img src="assets/images/yoga01.jpeg" alt="Picture 2">
