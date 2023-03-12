@@ -34,7 +34,7 @@ h1,h2{
 }
 
 #menu, #logo {
-    line: height 20px;
+    height: 20px;
 }
 
 #menu li {
@@ -65,7 +65,7 @@ h1,h2{
 }
 
 footer {
-    height: 150px;
+    height: 100px;
 }
 
 .social-networks {
