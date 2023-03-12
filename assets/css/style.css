@@ -9,7 +9,7 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
+    color: #353131;
 }
 
 /* headings and logo */
@@ -59,7 +59,26 @@ h1, h2 {
 /* hero image */
 
 #hero-image {
-    height: 600px;
+    height: 800px;
     width: 100%;
     background: url('../images/hero-image.jpeg') no-repeat center center;
+}
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 1%;
+    
 }
