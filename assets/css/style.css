@@ -9,7 +9,7 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: #353131;
+    color: #1d1515;
 }
 
 /* headings and logo */
@@ -18,11 +18,11 @@ h1,h2{
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;
+    color: #0e0d0d;
 }
 
 #logo {
-    float: right;
+    float: left;
     font-size: 100%;
 }
 
@@ -34,13 +34,13 @@ h1,h2{
 }
 
 #menu, #logo {
-    line-height: 60px;
+    line: height 20px;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
 #menu a {
