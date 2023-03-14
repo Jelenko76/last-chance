@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <style>
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .gallery img {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            object-fit: cover;
+        }
+        /* add the following styles to make the Home and Gallery links look the same on all pages */
+        #menu li a.active {
+            color: #007bff;
+        }
+        #menu li a {
+            display: block;
+            padding: 10px;
+            color: #000000;
+            text-decoration: none;
+        }
+        #menu li a:hover {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="signup.html">Sign Up</a>
+                </li>
+                
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Gallery</h1>
+    <div class="gallery">
+        <img src="assets/images/yoga00.jpeg" alt="Picture 1">
+        <img src="assets/images/yoga01.jpeg" alt="Picture 2">
+        <img src="assets/images/yoga03.jpeg" alt="Picture 4">
+        <img src="assets/images/yoga04.jpeg" alt="Picture 5">
+        <img src="assets/images/yoga05.jpeg" alt="Picture 6">
+        <img src="assets/images/yoga06.jpeg" alt="Picture 7">
+        <img src="assets/images/yoga07.jpeg" alt="Picture 8">
+        <img src="assets/images/yoga08.jpeg" alt="Picture 9">
+        <img src="assets/images/yoga09.jpeg" alt="Picture 10">
+        <img src="assets/images/yoga10.jpeg" alt="Picture 11">
+        <img src="assets/images/yoga11.jpeg" alt="Picture 12">
+        <img src="assets/images/yoga12.jpeg" alt="Picture 13">
+        <img src="assets/images/yoga13.jpeg" alt="Picture 14">
+    </div>
+</body>
+</html>
